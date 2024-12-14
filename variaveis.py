@@ -38,4 +38,5 @@ for letra in pessoa:
     print(letra)
     # e sim, ele vai imprimir cada letra de pessoa.
     # pq é como uma lista, cada letra é uma posição na memória
+    # !
 
