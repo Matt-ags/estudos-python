@@ -25,5 +25,6 @@ print(multiplica(6, 2)) # bem parecido com o f(x) da matemática, show! (ctrl + 
 def imprima(texto):
     print("O texto é", texto)
 
+
 imprima("josé")
 
