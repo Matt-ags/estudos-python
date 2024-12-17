@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f1e2b6f-7f00-47e9-a2a1-59a2d850d89c" name="Changes" comment="adicionado arquivos">
-      <change afterPath="$PROJECT_DIR$/operadoreseCondicionais/operadores.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0f1e2b6f-7f00-47e9-a2a1-59a2d850d89c" name="Changes" comment="operadores.py adicionados">
+      <change afterPath="$PROJECT_DIR$/operadoreseCondicionais/operadores_condicionais.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +39,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.operadores.executor": "Run",
+    "Python.operadores_condicionais.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
   }
@@ -76,7 +76,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734197542442</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="operadores.py adicionados">
+      <option name="closed" value="true" />
+      <created>1734436280890</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734436280890</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,6 +130,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adicionado arquivos" />
-    <option name="LAST_COMMIT_MESSAGE" value="adicionado arquivos" />
+    <MESSAGE value="operadores.py adicionados" />
+    <option name="LAST_COMMIT_MESSAGE" value="operadores.py adicionados" />
   </component>
 </project>
