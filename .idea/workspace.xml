@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f1e2b6f-7f00-47e9-a2a1-59a2d850d89c" name="Changes" comment="Laços de repetição">
-      <change afterPath="$PROJECT_DIR$/Funções/exemplo_funcoes.py" afterDir="false" />
+    <list default="true" id="0f1e2b6f-7f00-47e9-a2a1-59a2d850d89c" name="Changes" comment="funções">
+      <change afterPath="$PROJECT_DIR$/calculadora/Calculadora_Simples.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +39,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Calculadora_Simples.executor": "Run",
     "Python.continue.executor": "Run",
     "Python.exemplo_funcoes.executor": "Run",
     "Python.lacos_de_repeticao.executor": "Run",
@@ -118,7 +119,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734444181583</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="funções">
+      <option name="closed" value="true" />
+      <created>1734479676204</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1734479676282</updated>
+    </task>
+    <task id="LOCAL-00008" summary="funções">
+      <option name="closed" value="true" />
+      <created>1734479867121</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1734479867121</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +184,7 @@
     <MESSAGE value="operadores.py adicionados" />
     <MESSAGE value="operadores_condicionais.py adicionados" />
     <MESSAGE value="Laços de repetição" />
-    <option name="LAST_COMMIT_MESSAGE" value="Laços de repetição" />
+    <MESSAGE value="funções" />
+    <option name="LAST_COMMIT_MESSAGE" value="funções" />
   </component>
 </project>
