@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f1e2b6f-7f00-47e9-a2a1-59a2d850d89c" name="Changes" comment="funções">
-      <change afterPath="$PROJECT_DIR$/calculadora/Calculadora_Simples.py" afterDir="false" />
+    <list default="true" id="0f1e2b6f-7f00-47e9-a2a1-59a2d850d89c" name="Changes" comment="Adicionado calculadora simples">
+      <change afterPath="$PROJECT_DIR$/Lista_De_Compras/lista_de_compras.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +43,7 @@
     "Python.continue.executor": "Run",
     "Python.exemplo_funcoes.executor": "Run",
     "Python.lacos_de_repeticao.executor": "Run",
+    "Python.lista_de_compras.executor": "Run",
     "Python.operadores.executor": "Run",
     "Python.operadores_condicionais.executor": "Run",
     "Python.while.executor": "Run",
@@ -135,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734479867121</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Adicionado calculadora simples">
+      <option name="closed" value="true" />
+      <created>1734540915291</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1734540915291</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -185,6 +194,7 @@
     <MESSAGE value="operadores_condicionais.py adicionados" />
     <MESSAGE value="Laços de repetição" />
     <MESSAGE value="funções" />
-    <option name="LAST_COMMIT_MESSAGE" value="funções" />
+    <MESSAGE value="Adicionado calculadora simples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionado calculadora simples" />
   </component>
 </project>
