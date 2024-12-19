@@ -73,6 +73,7 @@ Encerramento do Programa: O usuário deve poder encerrar o programa de forma ade
 
 def lista():
     lista = [] # Importante deixar fora do loop, para que não de reset e tira os itens
+    id_produto = 1
     while True:
 
         print("Lista de Compras Simples")
@@ -84,8 +85,8 @@ def lista():
             print("Opa, parece que sua lista está vazia! Digite 1 para começar a adicionar.")
         else:
             # Pelo que eu vi, para deixar mensagens bonitinhas com o dicionario, tem que usar o f-string, só deixar o f na frente:
-            for item in lista:
-                print(f"- Item: {produto['nome']}, Quantidade: {produto['quantidade']} {produto['unidade']}, Descrição: {produto['descricao']};")
+            for item in lista: # É meio confuso esta relção do for e in, mas tente lembrar da função "f(x)" que só estamos dando nomes pro x e pro y
+                print(f"ID: {item['id']} | Item: {item['nome']}, Quantidade: {item['quantidade']} {item['unidade']}, Descrição: {item['descricao']};")
 
         print("////////")
         print()
@@ -103,11 +104,13 @@ def lista():
             print("Opção inválida! Tente novamente.")
             continue # volta o loop
 
+        # ADICIONAR PRODUTO:
         if acao == '1':
             # para realizar aquelas outras informaçoes, que levam ao mesmo produto, são "dicionarios", mesma coisa que "objetos" em javascript
             nome = input("Digite o nome do produto: ")
 
             while True:
+                # Uma dica: Tem menu? Temos loop!
                 print("1 - Quilograma(s)")
                 print("2 - Grama(s)")
                 print("3 - Litro(s)")
@@ -118,7 +121,7 @@ def lista():
 
                 unidade = (input("Qual a unidade de medida? (Digite o número correspondente): "))
 
-                if unidade == '1':
+                if unidade == '1': # Deixei em aspas pois a unidade vem como string, podiamos transformar em número, mas pra facilitar, deixei desta forma
                     unidade = "Quilograma(s)"
                     break
                 elif unidade == '2':
@@ -147,6 +150,7 @@ def lista():
             descricao = input("Digite uma descrição para o produto: ")
 
             produto = { # dicionario do produto:
+                "id": id_produto,
                 "nome": nome,
                 "unidade": unidade,
                 "quantidade": quantidade,
@@ -155,6 +159,41 @@ def lista():
             lista.append(produto)
             print(produto, " adicionado!")
             print(lista) # Tirar depois, é para listar os produtos na lista, tem os objetros na lista
+
+            id_produto = id_produto + 1
+
+        # REMOVER PRODUTO:
+        if acao == '2':
+            while True:
+                print()
+                print("////////")
+                if len(lista) == 0:
+                    print("Opa, parece que sua lista está vazia! Digite 1 para começar a adicionar.")
+                    break
+                else:
+                    # Pelo que eu vi, para deixar mensagens bonitinhas com o dicionario, tem que usar o f-string, só deixar o f na frente:
+                    for item in lista:  # É meio confuso esta relção do for e in, mas tente lembrar da função "f(x)" que só estamos dando nomes pro x e pro y
+                        print(f"ID: {item['id']} | Item: {item['nome']}, Quantidade: {item['quantidade']} {item['unidade']}, Descrição: {item['descricao']};")
+
+                print("////////")
+                print()
+
+                id_do_produto_removido = (input("Qual produto deseja remover? (Digite o ID correspondente): "))
+
+                produto_encontrado = False
+                for item in lista:
+                    if str(item['id']) == id_do_produto_removido: # Esse str é para transformar o id em String, pq de alguma forma ele transforma em número aqui!
+                        lista.remove(item)
+                        print(f"Produto {item['nome']} removido com sucesso!")
+                        produto_encontrado = True
+                        break
+
+                if not produto_encontrado:
+                    print("Produto não encontrado! Tente novamente.")
+                    continue
+
+                break
+
 
 
 

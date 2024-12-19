@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f1e2b6f-7f00-47e9-a2a1-59a2d850d89c" name="Changes" comment="Adicionado calculadora simples">
-      <change afterPath="$PROJECT_DIR$/Lista_De_Compras/lista_de_compras.py" afterDir="false" />
+    <list default="true" id="0f1e2b6f-7f00-47e9-a2a1-59a2d850d89c" name="Changes" comment="Funcionalidade de remover produtos feita">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lista_De_Compras/lista_de_compras.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lista_De_Compras/lista_de_compras.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734540915291</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Funcionalidade de adicionar produtos feita">
+      <option name="closed" value="true" />
+      <created>1734625525266</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1734625525297</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,6 +203,8 @@
     <MESSAGE value="Laços de repetição" />
     <MESSAGE value="funções" />
     <MESSAGE value="Adicionado calculadora simples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionado calculadora simples" />
+    <MESSAGE value="Funcionalidade de adicionar produtos feita" />
+    <MESSAGE value="Funcionalidade de remover produtos feita" />
+    <option name="LAST_COMMIT_MESSAGE" value="Funcionalidade de remover produtos feita" />
   </component>
 </project>
