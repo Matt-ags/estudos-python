@@ -46,7 +46,7 @@ Uma aplicação que permite criar e gerenciar listas de compras diretamente no t
 - Pesquisar detalhes de um item específico;
 - Exibição clara e organizada da lista de compras.
 
-[🔗 Acesse o código da Lista de Compras](./lista-de-compras)
+[🔗 Acesse o código da Lista de Compras](./Lista_De_Compras)
 
 </details>
 
