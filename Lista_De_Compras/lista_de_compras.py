@@ -86,7 +86,7 @@ def lista():
         else:
             # Pelo que eu vi, para deixar mensagens bonitinhas com o dicionario, tem que usar o f-string, só deixar o f na frente:
             for item in lista: # É meio confuso esta relção do for e in, mas tente lembrar da função "f(x)" que só estamos dando nomes pro x e pro y
-                print(f"ID: {item['id']} | Item: {item['nome']}, Quantidade: {item['quantidade']} {item['unidade']}, Descrição: {item['descricao']};")
+                print(f"ID: {item['id']} | Item: {item['nome']};")
 
         print("////////")
         print()
@@ -173,7 +173,7 @@ def lista():
                 else:
                     # Pelo que eu vi, para deixar mensagens bonitinhas com o dicionario, tem que usar o f-string, só deixar o f na frente:
                     for item in lista:  # É meio confuso esta relção do for e in, mas tente lembrar da função "f(x)" que só estamos dando nomes pro x e pro y
-                        print(f"ID: {item['id']} | Item: {item['nome']}, Quantidade: {item['quantidade']} {item['unidade']}, Descrição: {item['descricao']};")
+                        print(f"ID: {item['id']} | Item: {item['nome']};")
 
                 print("////////")
                 print()
@@ -185,6 +185,38 @@ def lista():
                     if str(item['id']) == id_do_produto_removido: # Esse str é para transformar o id em String, pq de alguma forma ele transforma em número aqui!
                         lista.remove(item)
                         print(f"Produto {item['nome']} removido com sucesso!")
+                        produto_encontrado = True
+                        break
+
+                if not produto_encontrado:
+                    print("Produto não encontrado! Tente novamente.")
+                    continue
+
+                break
+
+        if acao == '3':
+            while True:
+                print()
+                print("////////")
+                if len(lista) == 0:
+                    print("Opa, parece que sua lista está vazia!")
+                    break
+                else:
+                    # Pelo que eu vi, para deixar mensagens bonitinhas com o dicionario, tem que usar o f-string, só deixar o f na frente:
+                    for item in lista:  # É meio confuso esta relção do for e in, mas tente lembrar da função "f(x)" que só estamos dando nomes pro x e pro y
+                        print(f"ID: {item['id']} | Item: {item['nome']};")
+
+                print("////////")
+                print()
+
+                id_do_produto = (input("Qual produto deseja pesquisar mais sobre? (Digite o ID correspondente): "))
+
+                produto_encontrado = False
+                for item in lista:
+                    if str(item[
+                               'id']) == id_do_produto:  # Esse str é para transformar o id em String, pq de alguma forma ele transforma em número aqui!
+                        print(
+                            f"ID: {item['id']} | Item: {item['nome']}, Quantidade: {item['quantidade']} {item['unidade']}, Descrição: {item['descricao']};")
                         produto_encontrado = True
                         break
 
